@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Summarize the Research Paper on {paper_input} in the best way possible,\n    keep the tone of explanation in {style_input} and length should be {length_input}\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
